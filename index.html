@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery-ui-1.9.2.custom.min.js"></script>
+    <script src="js/jdropwords.js"></script>
+    <script>
+        $(function(){
+            $('.jdropwords').jDropWords({
+                answers : "answers.json"
+            });
+        });
+    </script>
+    <link type="text/css" rel="stylesheet" href="css/jdropwords.css" media="all" />
+</head>
+<body>
+   
+    <div class="jdropwords">
+        <div class="blanks">
+        <p>If a teenager's room looks like a natural disaster, should parents simply
+        <span class="blank" id="1"></span>or insist their child clean it up? Experts' views differ.
+        An  author of several books about teens recommends that parents set
+        <span class="blank" id="2"></span>
+        so the room is neither a five hazard nor a hygienic hazard but allow some freedom too.
+        For example one rule migth be that the teens don't eat in the room
+        <span class="blank" id="3"></span>
+        so there's no dry pizza left on the bed for weeks.
+        Parents sould have teens take responsibillity for
+        <span class="blank" id="4"></span>
+        of their clothes and wash them. And is they don't do that,
+        they'll have to wear dirty clothes which is
+        <span class="blank" id="5"></span>of their negligence. 
+       Beyond that, if the room is just messy, let the teenager sit in the mess and shut
+       the door, she says. She recommends avoiding
+       
+       <span class="blank" id="6"></span>
+       over the room. If you let the room go, then when you say "No" in another area that you consider
+       important, they are<span class="blank" id="7"></span> to hear you.
+       But a psychologist says parents can expect teen clean their room at least once a week.
+        Even the worst room is not going to get that bad in a week
+        in terms of insect crawling out from under the door.
+        She thinks <span class="blank" id="8"></span> to get teens to clean their rooms
+        is to devise<span class="blank" id="9"></span>.
+        Tie room-cleaning to a teen's allowance, for example: If you expect the room to be cleaned
+        up by Thursday at 9 p.m., and it's done, pay the allowance. If parents don't care
+        if their teen's room is messy, they can given the child <span class="blank" id="10"></span>
+        such as cooking for the family once a week or cleaning the table three times a
+        week or feeding the dog. It's healthy for kids to participate in the family in some
+        helpful way. And cleaning their rooms builds habits that teach <span class="blank" id="11">
+        
+        </p>
+        </div>
+        
+        
+        
+        
+        <ul class="words">
+            <li class="word" id="1">1</li>
+            <li class="word" id="2">2</li>
+            <li class="word" id="3">3</li>
+            <li class="word" id="4">4</li>
+            <li class="word" id="5">5</li>
+            
+            <li class="word" id="6">6</li>
+            <li class="word" id="7">7</li>
+            <li class="word" id="8">8</li>
+            <li class="word" id="9">9</li>
+            <li class="word" id="10">10</li>
+            <li class="word" id="11">11</li>
+        </ul>
+        <div class="actions">
+            <a href="#" class="button reset">Reset</a>
+            <a href="#" class="button submit">Submit</a>
+        </div>
+    </div>
+</body>
+</html>
